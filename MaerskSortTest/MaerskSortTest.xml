@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MaerskSortTest</name>
+    </assembly>
+    <members>
+        <member name="M:MaerskSortTest.Controllers.SortController.EnqueueJob(System.Int32[])">
+            <summary>
+            Enqueue Job: An endpoint to which clients can post a list of numbers to be sorted. The endpoint returns immediately, without requiring clients to wait for the jobs to complete
+            </summary>
+            <param name="values"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MaerskSortTest.Controllers.SortController.GetJobs">
+            <summary>
+            Return the current state of all jobs (both pending and completed).
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MaerskSortTest.Controllers.SortController.GetJob(System.String)">
+            <summary>
+            Returns the current state of a specific job.
+            </summary>
+            <param name="jobId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
